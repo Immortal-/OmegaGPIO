@@ -27,7 +27,7 @@ while True:
 
   #Set LED according to seconds
   seconds=int(curtime[-2:])
-  ledtic=seconds % 6
+  ledtic=seconds % 12
 
   if seconds==59:
     setrgb(0,0,0) # off
